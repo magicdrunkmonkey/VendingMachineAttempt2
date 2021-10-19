@@ -4,13 +4,13 @@ namespace VendingMachineAttempt2
 {
     class Program
     {
-        public void Main(string[] args)
-        { 
+        static void Main(string[] args)
+        {
             //Fields, declare, initialize
-            readonly int[] moneyValue = { 1, 5, 10, 20, 50, 100, 1000 };
-
+            int moneyPool;
+            readonly int[] moneyValue = { 1, 5, 10, 20, 50, 100, 1000 };   //Why does this not work?
+                    
             //Console.WriteLine("Hello World!");
-
         }
     }
 
