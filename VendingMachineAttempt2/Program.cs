@@ -4,9 +4,12 @@ namespace VendingMachineAttempt2
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        public void Main(string[] args)
+        { 
+            //Fields, declare, initialize
+            readonly int[] moneyValue = { 1, 5, 10, 20, 50, 100, 1000 };
+
+            //Console.WriteLine("Hello World!");
 
         }
     }
@@ -35,7 +38,7 @@ namespace VendingMachineAttempt2
 
         public void Purchase()
         {
-            // The body of animalSound() is provided here 
+            // The body of animalSound() is provided here
             Console.WriteLine("The pig says: wee wee");
         }
 
