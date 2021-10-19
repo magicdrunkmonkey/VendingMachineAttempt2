@@ -35,7 +35,7 @@ namespace VendingMachineAttempt2
 
         public void Purchase()
         {
-            // The body of animalSound() is provided here
+            // The body of animalSound() is provided here 
             Console.WriteLine("The pig says: wee wee");
         }
 
