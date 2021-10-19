@@ -7,7 +7,8 @@ namespace VendingMachineAttempt2
         static void Main(string[] args)
         {
             //Fields, declare, initialize
-            int moneyPool;
+            //int moneyPool;                 //Do not know what to do with this yet.
+
             //readonly int[] moneyValue = { 1, 5, 10, 20, 50, 100, 1000 };   //Why does this not work?
                     
             //Console.WriteLine("Hello World!");
@@ -26,20 +27,20 @@ namespace VendingMachineAttempt2
     // VendingMachine "implements" the IVending interface
     class VendingMachine : IVending
     {
-        //To return unused money left in the moneypool
+        //Return unused money left in the moneypool
         public void EndTransaction()
         {
             throw new NotImplementedException();
         }
 
-        //To add money to the moneypool.
+        //Add money to the moneypool.
         public void InsertMoney()
         {            
             throw new NotImplementedException();
         }
 
         //To purchase a product from the vendingmachine
-        //with money in the moneypool.
+        //with money from the moneypool.
         public void Purchase()
         {
             // The body of animalSound() is provided here
@@ -47,7 +48,7 @@ namespace VendingMachineAttempt2
         }
 
         //Show all available products with prices
-        //the vendingmachine has.
+        //that the vendingmachine have.
         public void ShowAll()
         {
             throw new NotImplementedException();
